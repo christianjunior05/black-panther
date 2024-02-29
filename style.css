@@ -8,11 +8,17 @@
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    background-color: blue;
+    background-color: rgb(203, 203, 203);
     height: 100vh;
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; background-color: rgb(39, 25, 25); }
-    .div2 { grid-area: 2 / 1 / 6 / 2; }
+    .div2 { 
+        grid-area: 2 / 1 / 6 / 2;
+        text-align: center;
+       
+    
+    
+    }
     .div3 { grid-area: 2 / 2 / 6 / 6; }
     .div4 { grid-area: 1 / 2 / 2 / 6; }
